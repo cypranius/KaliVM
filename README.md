@@ -10,7 +10,7 @@ This VM serves as my personal cybersecurity lab environment. It gives me a safe,
 - Experiment with security tools without risking my main system
 - Build a foundation for my next project: an offline honeypot to study attack patterns
 
-By doing this manually instead of using a pre-built VM, I learned about resource allocation, networking modes, and troubleshooting—skills that copy-paste solutions don't teach.
+By doing this manually instead of using a pre-built VM, I learned about resource allocation, networking modes, and troubleshooting skills that copy-paste solutions don't teach.
 
 ## 📃 How Virtual Machines Work
 A virtual machine (VM) relies on a hypervisor software that communicates with the host operating system to allocate resources like CPU, RAM, and storage. This creates a separate virtual environment that runs independently from the host.
@@ -100,7 +100,7 @@ With a clean, updated system confirmed working, I created a VirtualBox snapshot.
 |:-----|:-----------|:------------|
 | **Kali Installer** | <img width="400" alt="Kali Installer" src="https://github.com/user-attachments/assets/0ce3d3e9-d47b-45fa-9a3f-7468f60f7be4" /> | Starting the Kali Linux graphical installation process |
 | **VM Configuration** | <img width="400" alt="Kali VM Specs" src="https://github.com/user-attachments/assets/b89068dd-c0bf-4899-a796-9d78839190f0" /> | Resource allocation: 2GB RAM, 2 cores, 100GB storage |
-| **Kali Login** | <img width="400" alt="Kali Login" src="https://github.com/user-attachments/assets/70494f9c-278e-42f0-b5b2-5cb64ececc48" /> | Successful installation—login screen ready |
+| **Kali Login** | <img width="400" alt="Kali Login" src="https://github.com/user-attachments/assets/70494f9c-278e-42f0-b5b2-5cb64ececc48" /> | Successful installation login screen ready |
 | **Network Verification** | <img width="400" alt="Ping Test" src="https://github.com/user-attachments/assets/254c0401-c9d7-42ba-8853-bd98e6312cb5" /> | Confirming internet connectivity after install |
 | **Snapshot Created** | <img width="400" alt="First Snapshot" src="https://github.com/user-attachments/assets/377172fa-b2b8-4b11-8a04-0fd6d288de84" /> | Clean state saved for future experiments |
 
