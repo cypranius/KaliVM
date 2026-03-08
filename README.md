@@ -56,11 +56,11 @@ Followed the graphical installer prompts. When asked about desktop environments,
 
 6. Network Verification
 After installation, I confirmed internet connectivity:
-```bash``` ping -c 4 google.ca
+```bash```: ping -c 4 google.ca
 
 7. System Updates
 Ran updates to ensure the system had the latest packages: 6
-sudo apt update && sudo apt upgrade -y
+```bash```: sudo apt update && sudo apt upgrade -y
 
 8. Stability Check
 Powered off the VM, then restarted it to verify stability. The VM remained responsive with no boot issues.
