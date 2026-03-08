@@ -56,7 +56,7 @@ Followed the graphical installer prompts. When asked about desktop environments,
 
 6. Network Verification
 After installation, I confirmed internet connectivity:
-ping -c 4 google.ca
+```bash``` ping -c 4 google.ca
 
 7. System Updates
 Ran updates to ensure the system had the latest packages: 6
