@@ -3,30 +3,24 @@ Step-by-step guide to setting up Kali Linux virtual machine in VirtualBox for cy
 
 ## 📋 Why I Built This
 I wanted to truly understand virtual machines, not just what they are, but how they work under the hood. Setting up Kali Linux in VirtualBox became the perfect hands-on way to learn.
-
 This VM serves as my personal cybersecurity lab environment. It gives me a safe, isolated space to:
 - Practice Linux commands for TryHackMe and other platforms
 - Experiment with security tools without risking my main system
 - Build a foundation for my next project: an offline honeypot to study attack patterns
-
 By doing this manually instead of using a pre-built VM, I learned about resource allocation, networking modes, and troubleshooting skills that copy-paste solutions don't teach.
 
 ## 📃 How Virtual Machines Work
 A virtual machine (VM) relies on a hypervisor software that communicates with the host operating system to allocate resources like CPU, RAM, and storage. This creates a separate virtual environment that runs independently from the host.
-
 Isolation & Security
 While VMs provide strong isolation, they are not completely immune to threats. In rare cases, a virtual escape attack could allow malicious code to break out of the VM and affect the host. However, for most use cases, VMs offer excellent protection by containing potential threats within the isolated environment.
-
 Key Advantages
 - Strong isolation – Protects the host OS from most malware or experiments
 - Snapshots – Allows you to save a VM state and revert back if something breaks
 - Multi-OS support – Run Linux, Windows, or others simultaneously on one machine
-
 Limitations:
 - Resource intensive – VMs require more CPU, RAM, and storage than containers
 - Slower setup – Each VM needs its own OS installation (separate ISO files)
 - Storage overhead – Multiple VMs mean multiple full OS copies
-
 Understanding these trade-offs helped me choose the right approach for future labs, where isolation and snapshots are more valuable than speed or efficiency.
 
 ## 🛠️ Tools & Technologies
