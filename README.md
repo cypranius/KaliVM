@@ -23,7 +23,7 @@ Key Advantages
 - Snapshots – Allows you to save a VM state and revert back if something breaks
 - Multi-OS support – Run Linux, Windows, or others simultaneously on one machine
 
-Limitations
+Limitations:
 - Resource intensive – VMs require more CPU, RAM, and storage than containers
 - Slower setup – Each VM needs its own OS installation (separate ISO files)
 - Storage overhead – Multiple VMs mean multiple full OS copies
