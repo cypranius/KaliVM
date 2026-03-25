@@ -32,9 +32,9 @@ Understanding these trade-offs helped me choose the right approach for future la
 
 ## 🛠️ Tools & Technologies
 - **VirtualBox 7.x** – Virtualization platform for creating and managing isolated VMs
-- **Kali Linux** (2025.4 ISO) – Security-focused OS used for the attacker machine
+- **Kali Linux** (2025.4 ISO) – Security focused OS used for the attacker machine
 - **Windows 11 Pro** – Host environment
-- **AI-assisted diagnostics** – Leveraged large language models to interpret error messages and suggest troubleshooting paths during configuration challenges.
+- **AI assisted diagnostics** – Leveraged large language models to interpret error messages and suggest troubleshooting paths during configuration challenges.
 - **Windows Security (Defender)** – Configured folder exclusions to prevent the antivirus from flagging Kali's penetration testing tools as malicious.
 
 ## 📝 Step-by-Step Process
