@@ -19,14 +19,14 @@ Isolation & Security
 While VMs provide strong isolation, they are not completely immune to threats. In rare cases, a virtual escape attack could allow malicious code to break out of the VM and affect the host. However, for most use cases, VMs offer excellent protection by containing potential threats within the isolated environment.
 
 Key Advantages
-Strong isolation – Protects the host OS from most malware or experiments
-Snapshots – Allows you to save a VM state and revert back if something breaks
-Multi-OS support – Run Linux, Windows, or others simultaneously on one machine
+- Strong isolation – Protects the host OS from most malware or experiments
+- Snapshots – Allows you to save a VM state and revert back if something breaks
+- Multi-OS support – Run Linux, Windows, or others simultaneously on one machine
 
 Limitations
-Resource intensive – VMs require more CPU, RAM, and storage than containers
-Slower setup – Each VM needs its own OS installation (separate ISO files)
-Storage overhead – Multiple VMs mean multiple full OS copies
+- Resource intensive – VMs require more CPU, RAM, and storage than containers
+- Slower setup – Each VM needs its own OS installation (separate ISO files)
+- Storage overhead – Multiple VMs mean multiple full OS copies
 
 Understanding these trade-offs helped me choose the right approach for future labs, where isolation and snapshots are more valuable than speed or efficiency.
 
